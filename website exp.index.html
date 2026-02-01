@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofoliul Meu</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        html { scroll-behavior: smooth; }
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+<nav class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-100">
+    <div class="max-w-4xl mx-auto px-6 py-4 flex justify-between items-center">
+        <a href="#" class="text-xl font-bold bg-gradient-to-r from-rose-600 to-green-600 bg-clip-text text-transparent">
+            Portofoliu personal.
+        </a>
+
+        <div class="hidden md:flex space-x-8 text-sm font-medium text-gray-600">
+            <a href="#" class="hover:text-rose-600 transition">Acasă</a>
+            <a href="#proiecte" class="hover:text-rose-600 transition">Proiecte</a>
+            <a href="#contact" class="hover:text-rose-600 transition">Contact</a>
+        </div>
+
+        <a href="mailto:emailul-mihneauscat@gmail.com" class="px-5 py-2 bg-gray-900 text-white text-sm rounded-full hover:bg-gray-800 transition shadow-md">
+            Conectează-te!
+        </a>
+    </div>
+</nav>
+    <main class="max-w-4xl mx-auto py-20 px-6">
+        <header class="text-center mb-16">
+            <div class="w-24 h-24 bg-rose-600 rounded-full mx-auto mb-4 flex items-center justify-center text-white text-3xl font-bold">
+                MU
+            </div>
+            <h1 class="text-4xl font-semibold tracking-tight">Salut, sunt Mihnea Uscat</h1>
+            <p class="text-gray-500 mt-2 text-lg">Sunt pasionat de informatică și tehnologie.</p>
+        </header>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div class="md:col-span-2 bg-white p-8 rounded-3xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                <h2 class="text-xl font-semibold mb-4 text-rose-600">Despre mine</h2>
+                <p class="text-gray-600 leading-relaxed">
+                    Sunt entuziasmat să îmi extind căile de învățare, iar spiritul meu este intrigat de puterea informaticii. Îmi place să aduc ideile la realitate folosind limbajul de coding.
+                </p>
+            </div>
+
+            <div class="bg-rose-600 p-8 rounded-3xl shadow-sm text-white">
+                <h2 class="text-xl font-semibold mb-4">Skill-uri</h2>
+                <ul class="space-y-2 opacity-90">
+                    <li>• HTML / CSS / C++</li>
+                    <li>• Deschis oportunitățiilor</li>
+                    <li>• Învățare Rapidă</li>
+                </ul>
+            </div>
+
+            <div class="md:col-span-3 bg-white p-8 rounded-3xl shadow-sm border border-gray-100 hover:shadow-md transition flex justify-between items-center">
+                <div>
+                    <h2 class="text-xl font-semibold">Proiectul Meu Actual</h2>
+                    <p class="text-gray-500">Construirea acestui portofoliu.</p>
+                </div>
+                <div class="bg-gray-100 px-4 py-2 rounded-full text-sm font-medium">În lucru</div>
+            </div>
+        </div>
+
+        <footer class="mt-20 text-center text-gray-400 text-sm">
+            © 2026 • Creat cu dedicație de Mihnea Uscat
+        </footer>
+    </main>
+<section class="mt-12">
+    <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
+        <span class="w-8 h-1 bg-rose-600 rounded-full"></span>
+        Proiecte Realizate
+    </h2>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="group overflow-hidden rounded-3xl bg-white border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300">
+            <div class="h-48 bg-gray-200 overflow-hidden">
+                <img src="C:\Users\User\Downloads\IMG_5666.jpeg" alt="Work" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+            </div>
+            <div class="p-6">
+                <span class="text-xs font-bold uppercase tracking-wider text-rose-600">Web Design</span>
+                <h3 class="text-xl font-semibold mt-2">Primul meu site</h3>
+                <p class="text-gray-500 mt-2 text-sm">Un website personal construit de la zero folosind HTML și Tailwind.</p>
+                <div class="mt-4 flex gap-2">
+                    <span class="px-3 py-1 bg-gray-100 rounded-full text-xs">HTML</span>
+                    <span class="px-3 py-1 bg-gray-100 rounded-full text-xs">Tailwind</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="group overflow-hidden rounded-3xl bg-white border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300">
+            <div class="h-48 bg-gray-200 overflow-hidden">
+                <img src="C:\Users\User\Downloads\IMG_5685.jpeg" alt="Code" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+            </div>
+            <div class="p-6">
+                <span class="text-xs font-bold uppercase tracking-wider text-green-600">Algoritmi</span>
+                <h3 class="text-xl font-semibold mt-2">Calculator Incorporat</h3>
+                <p class="text-gray-500 mt-2 text-sm">O aplicație web care rezolvă calcule matematice complexe.</p>
+                <div class="mt-4 flex gap-2">
+                    <span class="px-3 py-1 bg-gray-100 rounded-full text-xs">JavaScript</span>
+                    <span class="px-3 py-1 bg-gray-100 rounded-full text-xs">Logic</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="mt-20 bg-white p-8 md:p-12 rounded-[2rem] shadow-sm border border-gray-100">
+    <div class="max-w-xl mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-4">Contactează-mă și hai să lucrăm!</h2>
+        <p class="text-gray-500 mb-8">Ai o idee de proiect sau vrei să convorbim? Trimite-mi un mesaj.</p>
+        
+        <form action="#" class="space-y-4 text-left">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-1 ml-1">Nume</label>
+                    <input type="text" placeholder="Ex: Uscat Mihnea" class="w-full px-4 py-3 rounded-2xl bg-gray-50 border-transparent focus:border-rose-500 focus:bg-white focus:ring-0 transition duration-200 outline-none">
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-1 ml-1">E-mail</label>
+                    <input type="email" placeholder="mihnea@gmail.com" class="w-full px-4 py-3 rounded-2xl bg-gray-50 border-transparent focus:border-rose-500 focus:bg-white focus:ring-0 transition duration-200 outline-none">
+                </div>
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1 ml-1">Mesajul tău</label>
+                <textarea rows="4" placeholder="Cu ce te pot ajuta?" class="w-full px-4 py-3 rounded-2xl bg-gray-50 border-transparent focus:border-rose-500 focus:bg-white focus:ring-0 transition duration-200 outline-none"></textarea>
+            </div>
+            <button class="w-full bg-rose-600 text-white font-semibold py-4 rounded-2xl hover:bg-rose-700 transition-colors shadow-lg shadow-rose-200">
+                Trimite Mesajul
+            </button>
+        </form>
+    </div>
+</section>
+</body>
+</html>
